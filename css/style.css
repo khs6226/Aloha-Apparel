@@ -53,12 +53,16 @@ a, h3{
 }
 a:hover{
     color: #b64036;
+    cursor: pointer;
 }
 .container-full{
     padding: 0 3%;
     margin: 0 auto;
     width: 100%;
 }
+
+/****Header****/
+
 .top{
     display:flex;
     flex-wrap: wrap;
@@ -106,7 +110,7 @@ nav{
 .cart img{
     width: 60px
 }
-.three{
+#three{
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -120,6 +124,14 @@ nav{
     text-align: center;
     font-weight: bold;
 }
+/* .stayTop{
+    position: fixed;
+    top: 0;
+    background-color: white;
+} */
+
+/****Banner****/
+
 .main{
     background: url(../images/banner-girl.png) no-repeat center 70px, url(../images/flower-bkgd.jpg) repeat-x top;
     height: 400px;
@@ -148,6 +160,9 @@ nav{
     font-weight: 400;
     text-transform: none;
 }
+
+/****About and Categories****/
+
 .about{
     text-align: center;
 }
@@ -190,6 +205,9 @@ nav{
     padding: 25% 0;
     max-width: 50%;
 }
+
+/****Featured****/
+
 .featured .container-full{
     padding: 0;
 }
@@ -204,6 +222,16 @@ nav{
 .carousel-cell h3{
     margin-bottom: 1rem;
 }
+.add{
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    border: 1px;
+    cursor: pointer;
+}
+
+/****Subscription****/
+
 .updates{
     background: url(../images/wave-bkgd.jpg) no-repeat bottom;
     color: white;
@@ -232,7 +260,11 @@ input[type=submit]{
     padding: 0.75rem 1.5rem;
     border-radius: 25px;
     border: 1px;
+    cursor: pointer;
 }
+
+/****footer****/
+
 footer{
     background-color: #242424;
     padding: 3rem 0;
@@ -272,6 +304,8 @@ footer a{
 .snsName{
     display: none;
 }
+
+/****Media Query****/
 
 /* Tablet */
 
@@ -367,6 +401,9 @@ footer a{
    .year{
        font-size: 4rem;
    }
+   .about-text{
+       width: 60%;
+   }
    .name{
        font-size: 2.5rem;
    }
@@ -379,4 +416,11 @@ footer a{
    .sns{
        padding-right: 3rem;
    }
+/*    .stayTop{
+    position: fixed;
+    top: 0;
+    background-color: white;
+    max-width: 100%;
+    padding: 0.5% 3%;
+} */
 }
