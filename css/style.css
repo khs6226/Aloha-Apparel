@@ -172,6 +172,10 @@ nav{
     text-align: center;
     color: white;
 }
+.categories a{
+    color: white;
+    text-decoration: none;
+}
 .name{
     font-size: 1.5rem;
     font-weight: 500;
