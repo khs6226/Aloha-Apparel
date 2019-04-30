@@ -1,0 +1,417 @@
+/*section, header, div, footer{
+    background-color: gray;
+}*/
+
+/* Extra resetting
+----------------------------------------------------------------*/
+
+/* makes all images responsive */
+img {
+    height: auto;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *{
+    box-sizing: border-box;
+  }
+/*----------------------------------------------------------------------------*/
+body{
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    font-size: 14px;
+    color: #2d2d2d;
+}
+
+section{
+    padding: 3rem 0;
+}
+h1, h2, h3{
+    font-family: 'Playfair Display', Arial, serif;
+    font-weight: normal;
+    font-style: normal;
+}
+h2{
+    font-size: 2.5rem;
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+h2 span{
+    font-weight: bold;
+    font-style: normal;
+
+}
+section h2{
+    text-align: center;
+}
+a, h3{
+    color:#e2574c;
+}
+a:hover{
+    color: #b64036;
+}
+
+.container-full{
+    padding: 0 3%;
+    margin: 0 auto;
+    width: 100%;
+    /* max-width: 1240px; */
+}
+
+.top{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+ul{
+    margin: 0 0 0 0;
+}
+li{
+    list-style: none;
+}
+nav ul{
+    padding-top: 1rem;
+    text-align: center;
+    border-top: 1px solid #d7d7d7;
+}
+nav li{
+    display: inline-block;
+    margin: 0 1rem;
+    font-weight: 500;
+}
+nav li a{
+    text-decoration: none;
+}
+
+.logo{
+    align-self: flex-start;
+    flex: 0 1 50%;
+}
+.logo img{
+    width: 160px;
+    height: auto;
+}
+
+nav{
+    align-self: center;
+    flex: 1 0 auto;
+}
+
+.cart{
+    align-self: flex-end;
+    flex: 0 1 50%;
+    text-align: right;
+    position: relative;
+}
+.cart img{
+    width: 60px
+}
+.three{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+}
+.main{
+    background: url(../images/banner-girl.png) no-repeat center 70px, url(../images/flower-bkgd.jpg) repeat-x top;
+    height: 400px;
+    position: relative;
+    background-size: 150px 350px, cover;
+    
+    }
+.main-text{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+}
+.nc{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+.year{
+    font-family: 'Playfair Display', Arial, serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: none;
+}
+.about{
+    text-align: center;
+}
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;
+}
+.name{
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+.mens{
+    background: url(../images/mens-category.jpg) no-repeat;
+}
+.trends{
+    background: url(../images/trends-category.jpg) no-repeat;
+}
+.glasses{
+    background: url(../images/glasses-category.jpg) no-repeat;
+}
+.sale{
+    background: url(../images/sale-category.jpg) no-repeat;
+}
+.bags{
+    background: url(../images/bags-category.jpg) no-repeat;
+}
+.womens{
+    background: url(../images/womens-category.jpg) no-repeat;
+}
+.rectangle{
+    background-size: cover;
+    padding: 25% 0;
+    flex: 2 0 100%;
+}
+.square{
+    background-size: cover;
+    flex: 1 0 50%;
+    padding: 25% 0;
+    max-width: 50%;
+}
+.featured .container-full{
+    padding: 0;
+}
+.carousel-cell{
+    text-align: center;
+    width: 100%;
+}
+.carousel-cell p{
+    color: #969696;
+    margin-bottom: 1rem;
+}
+.carousel-cell h3{
+    margin-bottom: 1rem;
+}
+.updates{
+    background: url(../images/wave-bkgd.jpg) no-repeat bottom;
+    color: white;
+    margin-bottom: 0.6rem;
+}
+.subscribe{
+    text-align: center;
+}
+/* .updates p{
+    font-size: 0.6rem;
+} */
+form{
+    position: relative;
+    width: 90%;
+    margin: 1.5rem auto;
+}
+input[type=email]{
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border-radius: 25px;
+    border: 1px;
+}
+input[type=submit]{
+    color: white;
+    background-color: #e2574c;
+    position: absolute;
+    top: 0.25rem;
+    right: 0.25rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    border: 1px;
+}
+footer{
+    background-color: #242424;
+    padding: 3rem 0;
+    color: white;
+    text-align: center;
+}
+footer a{
+    color: white;
+}
+.foot-container{
+    padding: 0 2%;
+    margin: 0 auto;
+    /* display: flex;
+    justify-content: space-between;
+    max-width: 1240px; */
+}
+.info{
+    line-height: 1.5rem;
+}
+.info p{
+    margin-bottom: 1rem;
+}
+.address{
+    color: #969696;
+}
+.sns{
+    /* width: 100px; */
+    font-size: 1rem;
+}
+.sns i{
+    min-width: 20px;
+}
+.sns a{
+    text-decoration: none;
+}
+.sns li{
+    margin: 15px auto;
+    display: inline-block;
+}
+.snsName{
+    display: none;
+}
+
+
+/* Mobile First Approach
+
+1. Make flex-direction: row into column.
+2. change order of banner image and banner text.
+3. take out padding/ margin of text.
+4. text-align: center the banner text.
+5. align-self: center the banner image.
+6. change buttons. 
+   banner-text change flex basis 0 1 370px.
+   shrink, grow, basis.
+   change to flex: 0 1 auto.
+   or comment out flex: in banner image.
+7. still need to change buttons. in .actions li,
+   make display from inline-block into display block. or default it by commenting it out.
+8. go to .cta, add width: 70%.
+9. re-adjust widths/ sizing in buttons and image. */
+
+
+
+/* How to Bring Back Desktop Version using Media Query
+
+1. use @media screen and (min-width: 720px) {}
+2. inside media query, paste all elements and styling that was omitted or changed and paste inside.
+   includes .content, banner-text, banner-image, actions li, cta.
+   only need the styling that changed. */
+
+
+
+/* Table Version
+
+1. change button layout. Essentially same as desktop usage of media query */
+
+/* Not a lot of difference between desktop and mobile. Main changes are in flex layout. */
+
+
+/* Tablet */
+
+@media only screen and (min-width: 600px) {
+    body{
+        font-size: 16px;
+    }
+    .top{
+        flex-wrap: nowrap;
+    }
+    .logo{
+        order: 1;
+        flex-basis: 25%;
+    }
+    .logo img{
+        max-width: 120px;
+    }
+    .cart{
+        order: 3;
+        flex-basis: 25%;
+    }
+    .navBar{
+        order: 2;
+        flex-basis: 50%;
+    }
+    .navBar ul{
+        border: none;
+    }
+    .navBar li{
+        font-size: 0.8rem;
+        margin: 0 0.5rem;
+    }
+    .year{
+        font-size: 3rem;
+    }
+    .about-text{
+        max-width: 720px;
+    }
+    .rectangle{
+        flex-basis: 50%;
+        padding: 11% 0;
+        background-size: cover;
+    }
+    .square{
+        flex-basis: 25%;
+        padding: 11% 0;
+        background-size: cover;
+    }
+    .name{
+        font-size: 1.7rem;
+    }
+    .carousel-cell{
+        width: 50%;
+    }
+    .subscribe{
+        max-width: 720px;
+    }
+    .footer{
+        text-align: left;
+    }
+    .foot-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .info{
+        padding-left: 1rem;
+    }
+    .sns{
+        padding-right: 1rem;
+    }
+    .sns li{
+        display: block;
+    }
+    .snsName{
+        display: inline;
+    }
+}
+
+/* Desktop */
+/* @media screen and (min-width: 720px) {
+    .content {
+        flex-direction: row;
+    }
+
+    .banner-text {
+        flex: 0 1 370px;
+        margin-right: 80px;
+        order: 1;
+        padding-top: 150px;
+        text-align: right;
+    }
+} */
