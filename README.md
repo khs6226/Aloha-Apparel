@@ -9,7 +9,7 @@ First project of Web-Development class at Red Academy-Vancouver.
 ## Learnings
 I have never had any experience in coding.
 Our intructors are awesome and they taught me well.
-I created this Aloha-Apparel page from scratch.
+I created this Aloha-Apparel page from the scratch.
 I learned alot and looking forward to explore new coding techniques.
 
 ## Author
