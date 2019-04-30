@@ -58,19 +58,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
     let submit = document.getElementById('submit');
-    submit.addEventListener('click', /* function ValidateEmail(mail) {
-     if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(subscribeForm.email.value))
-      {
-        alert("Thank you for subscribing!");
-        return (true);
-      }
-    else {
-       alert("Please enter a valid email address!");
-       return (false);
-       }
-    } */
-       
-        function validateForm(s) {
+    submit.addEventListener('click', function validateForm(s) {
         s.preventDefault();
         let x = document.getElementById('email');
         if(x.value === "") {
@@ -82,6 +70,17 @@ document.addEventListener("DOMContentLoaded", function() {
         alert('Thank you for subscribing!');
         return true;
         };
+        /* function ValidateEmail(mail) {
+     if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(subscribeForm.email.value))
+      {
+        alert("Thank you for subscribing!");
+        return (true);
+      }
+    else {
+       alert("Please enter a valid email address!");
+       return (false);
+       }
+    } */
     });
     
 });
