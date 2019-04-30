@@ -417,6 +417,9 @@ footer a{
    .subscribe{
        width: 60%;
    }
+   .foot-container{
+       max-width: 1240px;
+   }
    .sns{
        padding-right: 3rem;
    }
