@@ -214,6 +214,7 @@ nav{
 
 .featured .container-full{
     padding: 0;
+    height: 600px;
 }
 .carousel-cell{
     text-align: center;
