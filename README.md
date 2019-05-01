@@ -12,6 +12,9 @@ Our intructors are awesome and they taught me well.
 I created this Aloha-Apparel page from the scratch.
 I learned alot and looking forward to explore new coding techniques.
 
+## Instruction
+Clone this project and open index.html
+
 ## Link
 Check out my Aloha-Apparel page at https://khs6226.github.io/Aloha-Apparel/
 
