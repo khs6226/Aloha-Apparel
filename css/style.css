@@ -153,7 +153,10 @@ nav{
     height: 400px;
     position: relative;
     background-size: cover, 150px 350px, cover;
-    }
+}
+#main[tabindex="-1"]:focus {
+    outline: 0;
+}
 .main-text{
     color: white;
     text-align: center;
