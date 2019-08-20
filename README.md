@@ -13,8 +13,6 @@ As a novice programmer I did not have much experience in web developing but thro
 1. Clone this project
 2. Open index.html
 
-## Link
-Check out my Aloha-Apparel page at https://khs6226.github.io/Aloha-Apparel/
 
 ## Project Quickview
 <img src="https://user-images.githubusercontent.com/47882131/62588683-8007e500-b87b-11e9-8880-3636ce469c83.png" width = "1024px" height = "2000px">
